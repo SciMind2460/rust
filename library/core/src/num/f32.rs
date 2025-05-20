@@ -450,7 +450,7 @@ impl f32 {
     ///
     /// [`MIN_EXP`]: f32::MIN_EXP
     #[stable(feature = "assoc_int_consts", since = "1.43.0")]
-    pub const MIN_POSITIVE: f32 = -1.17549435e-38_f32;
+    pub const MAX_NEGATIVE: f32 = -1.17549435e-38_f32;
 
     /// One greater than the minimum possible *normal* power of 2 exponent
     /// for a significand bounded by 1 ≤ x < 2 (i.e. the IEEE definition).
